@@ -32,5 +32,6 @@ http://skilldrick.co.uk/2010/09/why-mcconnell-was-wrong-idiomatic-programming/
 
 https://kotlinlang.org/docs/reference/idioms.html  
 https://blog.philipphauer.de/idiomatic-kotlin-best-practices/  
-
+https://medium.com/@elye.project/mastering-kotlin-standard-functions-run-with-let-also-and-apply-9cd334b0ef84  
+ 
 http://www.catb.org/%7eesr/jargon/html/M/metasyntactic-variable.html  
