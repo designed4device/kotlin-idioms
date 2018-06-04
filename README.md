@@ -1,6 +1,6 @@
 # Introduction to Idiomatic Kotlin for Java Developers
 
-[Google Slides](https://docs.google.com/presentation/d/1QTIHbs9g7XqKHoAxCU_Hgv7Nsr7-vcKpE4Wsnybzz7c/edit?usp=sharing)  
+[What IS Idiomatic Programming? - Google Slides](https://docs.google.com/presentation/d/1QTIHbs9g7XqKHoAxCU_Hgv7Nsr7-vcKpE4Wsnybzz7c/edit?usp=sharing)  
 
 ## kotlin resources
 
