@@ -1,5 +1,9 @@
 //https://kotlinlang.org/docs/reference/control-flow.html#when-expression
-fun `do use the super switch`(foo: String): String {
+
+/**
+ * 1.1 Basic When Statement
+ */
+fun weeble(foo: String): String {
     return when (foo) {
         "bar" -> "foobar"
         "blarg" -> "wibble"
@@ -10,22 +14,36 @@ fun `do use the super switch`(foo: String): String {
 
 interface Spam
 class Ham : Spam
-class Pork : Spam
 class Email : Spam
 
-fun `the super switch is great for determining type`(spam: Spam) {
-    when (spam) {
-        is Ham -> TODO()
-        is Pork -> TODO()
-        is Email -> TODO()
+/**
+ * 1.2 Classes and When Statements
+ */
+fun spamDescription(spam: Spam): String {
+    return when (spam) {
+        is Ham -> "it's edible..."
+        is Email -> "it's annoying"
+        else -> "it's definitely not spam"
     }
 }
 
-fun `the try expression is great`() {
-    val barf = try {
-        "great"
+/**
+ * function that performs integer division
+ * @return null if division throws exception, else result of division
+ */
+fun divide(dividend: Int, divisor:Int): Int? {
+    return try {
+        dividend / divisor
     } catch (e: Exception) {
-        "not great"
-    }.toUpperCase()
+        null
+    }
+}
+
+/**
+ * Creates Spam based on string input
+ * @return an instance of Spam
+ */
+fun makeSpam(type: String): Spam {
+    return if (type == "email") Email() else Ham()
 }
 
