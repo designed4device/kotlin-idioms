@@ -43,7 +43,7 @@ fun divide(dividend: Int, divisor:Int): Int? {
  * Creates Spam based on string input
  * @return an instance of Spam
  */
-fun makeSpam(type: String): Spam {
+fun toSpam(type: String): Spam {
     return if (type == "email") Email() else Ham()
 }
 
